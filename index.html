@@ -4,37 +4,78 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>標題</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css" />
     </head>
+
     <body>
-        <div id="nav">
-            <div id="logo">
-                <img src="img/logo.png" alt="網站logo" />
+        <nav>
+            <div id="nav">
+                <div id="logo">
+                    <img src="img/logo.png" alt="網站logo" />
+                </div>
+                <div id="link">
+                    <a href="" class="link">連結 A</a>
+                    <a href="" class="link">連結 B</a>
+                    <a href="" class="link">連結 C</a>
+                </div>
+                <div id="social">
+                    <a href="" class="social">
+                        <img src="img/instagram.png" alt="IG" />
+                    </a>
+                    <a href="" class="social">
+                        <img src="img/facebook.png" alt="FB" />
+                    </a>
+                </div>
             </div>
-            <div id="link">
-                <a href="" class="link">連結 A</a>
-                <a href="" class="link">連結 B</a>
-                <a href="" class="link">連結 C</a>
-            </div>
-            <div id="social">
-                <a href="" class="social">
-                    <img src="img/instagram.png" alt="IG" />
-                </a>
-                <a href="" class="social">
-                    <img src="img/facebook.png" alt="FB" />
-                </a>
-            </div>
-        </div>
+        </nav>
+
         <div id="banner"></div>
 
-        <div class="content">
-        <h1>標題</h1>
-        </div>
-        <div class="content">
-        <h1>標題</h1>
-        </div>
-        <div class="content">
-        <h1>標題</h1>
-        </div>
+        <section class="content">
+            <h1>標題</h1>
+            <!-- #news>(.card>h4{優惠資訊}+h2{最新消息標題}+p>lorem^img)*3 -->
+
+            <div id="news">
+                <div class="card">
+                    <h4>優惠資訊</h4>
+                    <h2>最新消息標題</h2>
+                    <hr />
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates deserunt possimus, libero
+                        velit voluptatem quis aliquid quae voluptatibus rem optio repellendus, neque non doloremque ex!
+                        Vel repellat explicabo dolor odit!
+                    </p>
+                    <img src="/img/drink.jpg" alt="" />
+                </div>
+                <div class="card">
+                    <h4>優惠資訊</h4>
+                    <h2>最新消息標題</h2>
+                    <hr />
+                    <p>
+                        Blanditiis pariatur consequatur delectus dolorum sequi explicabo facere reiciendis harum
+                        voluptates fuga. Error atque aspernatur incidunt eum rerum! Laborum autem laudantium consectetur
+                        nam est deserunt ipsum iste adipisci similique accusantium.
+                    </p>
+                    <img src="/img/drink.jpg" alt="" />
+                </div>
+                <div class="card">
+                    <h4>優惠資訊</h4>
+                    <h2>最新消息標題</h2>
+                    <hr />
+                    <p>
+                        Facere, dicta ducimus. Aliquid, placeat! Delectus reprehenderit dignissimos quidem molestiae
+                        sapiente accusantium ducimus ut nulla maxime, similique amet recusandae repellat sed esse at
+                        quae maiores. Ipsam in hic debitis eos.
+                    </p>
+                    <img src="/img/drink.jpg" alt="" />
+                </div>
+            </div>
+        </section>
+        <section class="content">
+            <h1>標題</h1>
+        </section>
+        <dsection class="content">
+            <h1>標題</h1>
+        </dsection>
     </body>
 </html>
